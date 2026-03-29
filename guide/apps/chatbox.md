@@ -1,3 +1,12 @@
+---
+prev:
+  text: '应用设置'
+  link: '/guide/app-config'
+next:
+  text: 'Cherry Studio'
+  link: '/guide/apps/cherrystudio'
+---
+
 # Chatbox
 
 ::: info 软件信息

@@ -23,7 +23,7 @@ const shops = [
   {
     name: 'Official Store',
     badge: 'Recommended',
-    price: 'Original Price',
+    price: 'Quick Buy',
     note: 'Official direct sales, stable and reliable',
     features: [
       'Official direct sales, quality assurance',
@@ -32,7 +32,7 @@ const shops = [
       '24/7 online customer service'
     ],
     btnText: 'Go to Store',
-    link: 'https://example.com/store',
+    link: 'https://68n.cn/PZkYw',
     bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     badgeBg: '#5a67d8'
   },
@@ -48,7 +48,7 @@ const shops = [
       'More recharge, more discount'
     ],
     btnText: 'Buy on Hongshu',
-    link: 'https://example.com/hongshu',
+    link: 'https://xhslink.com/m/4UeAaHivZrI',
     bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
     badgeBg: '#e53e3e'
   },
@@ -64,7 +64,7 @@ const shops = [
       'More recharge, more discount'
     ],
     btnText: 'Buy on Taobao',
-    link: 'https://example.com/taobao',
+    link: 'https://www.taobao.com/',
     bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
     badgeBg: '#dd6b20'
   },
@@ -80,7 +80,7 @@ const shops = [
       'More recharge, more discount'
     ],
     btnText: 'Buy on Xianyu',
-    link: 'https://example.com/xianyu',
+    link: 'https://www.goofish.com/',
     bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
     badgeBg: '#d69e2e'
   }

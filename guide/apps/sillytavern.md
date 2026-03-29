@@ -1,23 +1,52 @@
 ---
-sidebar: false
+prev:
+  text: '应用设置'
+  link: '/guide/app-config'
+next:
+  text: 'Omate'
+  link: '/guide/apps/omate'
 ---
 
-# 🏰 SillyTavern
+# SillyTavern
 
-SillyTavern 是一个开源的角色扮演平台，支持多种 AI 后端。
+::: info 软件信息
+**官方网站：** [https://sillytavern.app](https://sillytavern.app)  
+**支持平台：** Windows / macOS / Linux（自部署 Web 应用）
+:::
 
-## 功能特点
+## 📹 视频教程
 
-- 开源免费
-- 丰富的角色卡片生态
-- 多种 AI 后端支持
-- 高度可自定义
+<video controls style="width: 100%; max-width: 800px; border-radius: 8px; margin: 20px 0;">
+  <source src="/videos/sillytavern-tutorial.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
 
-## 配置枫叶AI
+## 📝 配置步骤
 
-1. 打开 SillyTavern 设置
-2. 选择 API 类型为「OpenAI 兼容」
-3. 填入枫叶AI的 API 地址和密钥
-4. 选择模型 `maple-ai-v1`
+1. **API 连接** → **Chat Completion** → **Custom (OpenAI-compatible)**
+2. **Custom Endpoint：** `https://api.katioai.com/v1`
+3. **API Key：** 填入您的令牌/密钥
+4. **模型：** 手动输入模型名称（包含前后缀）
 
-[前往官网](https://sillytavern.app)
+::: warning 注意事项
+- ✅ API 类型选择 Chat Completion
+- ✅ 源选择 Custom (OpenAI-compatible)
+- ❌ 不要遗漏模型的前后缀
+:::
+
+## 📸 图文教程
+
+### 步骤 1：打开 API 连接设置
+![步骤1](/images/sillytavern/step-1.png)
+
+### 步骤 2：选择 Chat Completion
+![步骤2](/images/sillytavern/step-2.png)
+
+### 步骤 3：选择 Custom 源
+![步骤3](/images/sillytavern/step-3.png)
+
+### 步骤 4：填写 Endpoint 和 Key
+![步骤4](/images/sillytavern/step-4.png)
+
+### 步骤 5：填写模型名称
+![步骤5](/images/sillytavern/step-5.png)

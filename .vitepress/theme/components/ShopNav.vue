@@ -23,7 +23,7 @@ const shops = [
   {
     name: '自助商城',
     badge: '官方推荐',
-    price: '原价购买',
+    price: '快速购买',
     note: '官方直营，稳定可靠',
     features: [
       '官方直营，品质保障',
@@ -32,7 +32,7 @@ const shops = [
       '24小时在线客服'
     ],
     btnText: '前往自助商城',
-    link: 'https://example.com/store',
+    link: 'https://68n.cn/PZkYw',
     bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     badgeBg: '#5a67d8'
   },
@@ -48,7 +48,7 @@ const shops = [
       '充值越多折扣越大'
     ],
     btnText: '前往红薯购买',
-    link: 'https://example.com/hongshu',
+    link: 'https://xhslink.com/m/4UeAaHivZrI',
     bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
     badgeBg: '#e53e3e'
   },
@@ -64,7 +64,7 @@ const shops = [
       '充值越多折扣越大'
     ],
     btnText: '前往淘宝购买',
-    link: 'https://example.com/taobao',
+    link: 'https://www.taobao.com/',
     bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
     badgeBg: '#dd6b20'
   },
@@ -80,7 +80,7 @@ const shops = [
       '充值越多折扣越大'
     ],
     btnText: '前往闲鱼购买',
-    link: 'https://example.com/xianyu',
+    link: 'https://www.goofish.com/',
     bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
     badgeBg: '#d69e2e'
   }

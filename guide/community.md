@@ -1,6 +1,12 @@
 ---
 layout: page
 sidebar: false
+prev:
+  text: '首页'
+  link: '/'
+next:
+  text: '使用指南'
+  link: '/guide/'
 ---
 
 <div class="guide-page">
@@ -18,7 +24,7 @@ sidebar: false
         <li>✓ 用户经验交流</li>
         <li>✓ 最新功能通知</li>
       </ul>
-      <a href="https://qm.qq.com/your_group" target="_blank" class="shop-card-btn">加入群聊</a>
+      <a href="https://qm.qq.com/q/ZkkiQXc4eY" target="_blank" class="shop-card-btn">加入群聊</a>
     </div>
     <div class="shop-card" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);">
       <div class="shop-badge" style="background: linear-gradient(135deg, #ff8787 0%, #ff6b6b 100%);">通知</div>
@@ -30,7 +36,7 @@ sidebar: false
         <li>✓ 优惠活动提醒</li>
         <li>✓ 重要公告发布</li>
       </ul>
-      <a href="https://qm.qq.com/your_notice_group" target="_blank" class="shop-card-btn">订阅通知</a>
+      <a href="https://qm.qq.com/q/OqKI2p3Q2W" target="_blank" class="shop-card-btn">订阅通知</a>
     </div>
     <div class="shop-card" style="background: linear-gradient(135deg, #07c160 0%, #06ad56 100%);">
       <div class="shop-badge" style="background: linear-gradient(135deg, #2dd179 0%, #07c160 100%);">活跃</div>
@@ -42,7 +48,12 @@ sidebar: false
         <li>✓ 商务合作对接</li>
         <li>✓ 线下活动组织</li>
       </ul>
-      <a href="#" class="shop-card-btn" onclick="alert('请添加客服微信：your_wechat_id');return false;">联系客服</a>
+      <a href="#" class="shop-card-btn" onclick="alert('请添加客服微信：JionYanX');return false;">联系客服</a>
     </div>
+  </div>
+
+  <div class="page-nav-buttons">
+    <a href="/" class="page-nav-btn page-nav-prev">← 上一页：首页</a>
+    <a href="/guide/" class="page-nav-btn page-nav-next">下一页：使用指南 →</a>
   </div>
 </div>
