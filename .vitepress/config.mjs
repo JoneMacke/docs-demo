@@ -7,6 +7,8 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
   appearance: 'dark',
+  cleanUrls: true,
+  srcExclude: ['**/README.md'],
   locales: {
     root: {
       label: '简体中文',
