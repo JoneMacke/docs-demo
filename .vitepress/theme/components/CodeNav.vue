@@ -28,6 +28,7 @@ const groups = [
   {
     title: '🏛️ 官方工具',
     items: [
+      { name: 'CC Switch', emoji: '🔀', desc: '多模型切换工具', link: '/guide/code/cc-switch' },
       { name: 'Claude Code', emoji: '🤖', desc: 'Anthropic 官方编程助手', link: '/guide/code/claude-code' },
       { name: 'Gemini CLI', emoji: '♊', desc: 'Google Gemini 命令行工具', link: '/guide/code/gemini-cli' },
       { name: 'Codex CLI', emoji: '📝', desc: 'OpenAI Codex 命令行工具', link: '/guide/code/codex-cli' }
@@ -43,10 +44,10 @@ const groups = [
   {
     title: '🛠️ 三方工具',
     items: [
+      { name: 'AionUi', emoji: '🎨', desc: 'AI 界面开发工具', link: '/guide/code/aionui' },
       { name: 'VS Code (Cline)', emoji: '💻', desc: 'VS Code AI 编程插件', link: '/guide/code/vscode-cline' },
       { name: 'OpenCode', emoji: '📂', desc: '开源 AI 编程工具', link: '/guide/code/opencode' },
-      { name: 'Cursor', emoji: '🖱️', desc: 'AI 驱动的代码编辑器', link: '/guide/code/cursor' },
-      { name: 'CC Switch', emoji: '🔀', desc: '多模型切换工具', link: '/guide/code/cc-switch' }
+      { name: 'Cursor', emoji: '🖱️', desc: 'AI 驱动的代码编辑器', link: '/guide/code/cursor' }
     ]
   },
   {

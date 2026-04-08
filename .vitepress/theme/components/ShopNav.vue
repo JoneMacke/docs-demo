@@ -51,38 +51,38 @@ const shops = [
     link: 'https://xhslink.com/m/4UeAaHivZrI',
     bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
     badgeBg: '#e53e3e'
-  },
-  {
-    name: '淘宝平台',
-    badge: '限时优惠',
-    price: '98折 ~ 95折',
-    note: '优惠力度随充值金额递增',
-    features: [
-      '淘宝担保交易，安全放心',
-      '支持花呗、信用卡等多种支付',
-      '自动发货，即买即用',
-      '充值越多折扣越大'
-    ],
-    btnText: '前往淘宝购买',
-    link: 'https://www.taobao.com/',
-    bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
-    badgeBg: '#dd6b20'
-  },
-  {
-    name: '闲鱼平台',
-    badge: '闲鱼专属',
-    price: '98折 ~ 95折',
-    note: '优惠力度随充值金额递增',
-    features: [
-      '闲鱼担保交易，安全可靠',
-      '支持花呗、信用卡等多种支付',
-      '即拍即发，快速到账',
-      '充值越多折扣越大'
-    ],
-    btnText: '前往闲鱼购买',
-    link: 'https://www.goofish.com/',
-    bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
-    badgeBg: '#d69e2e'
   }
+  // {
+  //   name: '淘宝平台',
+  //   badge: '限时优惠',
+  //   price: '98折 ~ 95折',
+  //   note: '优惠力度随充值金额递增',
+  //   features: [
+  //     '淘宝担保交易，安全放心',
+  //     '支持花呗、信用卡等多种支付',
+  //     '自动发货，即买即用',
+  //     '充值越多折扣越大'
+  //   ],
+  //   btnText: '前往淘宝购买',
+  //   link: 'https://www.taobao.com/',
+  //   bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
+  //   badgeBg: '#dd6b20'
+  // },
+  // {
+  //   name: '闲鱼平台',
+  //   badge: '闲鱼专属',
+  //   price: '98折 ~ 95折',
+  //   note: '优惠力度随充值金额递增',
+  //   features: [
+  //     '闲鱼担保交易，安全可靠',
+  //     '支持花呗、信用卡等多种支付',
+  //     '即拍即发，快速到账',
+  //     '充值越多折扣越大'
+  //   ],
+  //   btnText: '前往闲鱼购买',
+  //   link: 'https://www.goofish.com/',
+  //   bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
+  //   badgeBg: '#d69e2e'
+  // }
 ]
 </script>

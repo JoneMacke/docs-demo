@@ -3,14 +3,14 @@ prev:
   text: '应用设置'
   link: '/guide/app-config'
 next:
-  text: '梦潮汐'
-  link: '/guide/apps/mengchaoxi'
+  text: '小手机'
+  link: '/guide/apps/xiaoshouji'
 ---
 
 # 小懿
 
 ::: info 软件信息
-**官方网站：** [https://xiaoyi.app](https://xiaoyi.app)  
+**官方网站：** [小懿 (点击跳转)](https://xn--yet01l.cn/index.html)  
 **支持平台：** iOS / Android
 :::
 
@@ -38,14 +38,26 @@ next:
 ### 步骤 1：打开设置
 ![步骤1](/images/xiaoyi/step-1.png)
 
-### 步骤 2：添加 API 配置
+### 步骤 2：选择并添加提供商
 ![步骤2](/images/xiaoyi/step-2.png)
+
+![步骤2](/images/xiaoyi/step-2-1.png)
 
 ### 步骤 3：填写配置信息
 ![步骤3](/images/xiaoyi/step-3.png)
 
-### 步骤 4：选择模型
-![步骤4](/images/xiaoyi/step-4.png)
+![步骤3](/images/xiaoyi/step-3-1.png)
 
-### 步骤 5：完成配置
-![步骤5](/images/xiaoyi/step-5.png)
+![步骤3](/images/xiaoyi/step-3-2.png)
+
+### 步骤 4：添加选择模型
+![步骤4](/images/xiaoyi/step-3-3.png)
+
+![步骤4](/images/xiaoyi/step-3-4.png)
+
+![步骤4](/images/xiaoyi/step-3-5.png)
+
+### 步骤 5：选择模型完成配置
+![步骤5](/images/xiaoyi/step-4.png)
+
+![步骤5](/images/xiaoyi/step-4-1.png)

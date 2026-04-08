@@ -1,21 +1,53 @@
 ---
 sidebar: false
+prev:
+  text: 'OpenCode'
+  link: '/guide/code/opencode'
+next:
+  text: 'Copaw'
+  link: '/guide/code/copaw'
 ---
 
 # 🖱️ Cursor
 
-Cursor 是一款 AI 驱动的代码编辑器，内置强大的 AI 编程能力。
+::: info 软件信息
+**官方网站：** [Cursor (点击跳转)](https://cursor.com/)  
+**支持平台：** Windows / macOS / Linux
+:::
 
-## 功能特点
+## 📝 配置步骤
 
-- AI 代码生成
-- 智能代码补全
-- 代码解释与重构
-- 多模型支持
+1. **设置** → **Models** → **手动添加配置**
+2. **API 模式：** OpenAI
+3. **API 地址：** `https://api.katioai.com/v1`
+5. **API Key：** 填入您的令牌/密钥
+6. **模型 (Model)：** 手动添加模型
 
-## 配置枫叶AI
+::: warning 注意事项
+- ✅ 确保 API 地址填写正确，包含 `/v1`
+- ❌ 不要遗漏模型的前后缀
+:::
 
-1. 打开 Cursor 设置 → Models
-2. 添加自定义模型
-3. 设置 API Base URL 和 API Key
-4. 选择枫叶AI模型开始使用
+## 📸 图文教程
+
+### 步骤 1：打开设置
+![步骤1](/images/cursor/step-1.png)
+
+### 步骤 2：添加模型
+![步骤2](/images/cursor/step-2.png)
+
+![步骤2](/images/cursor/step-3.png)
+
+![步骤2](/images/cursor/step-4.png)
+
+### 步骤 3：填写配置要素
+![步骤3](/images/cursor/step-5.png)
+
+### 步骤 4：选择模型完成配置
+![步骤4](/images/cursor/step-6.png)
+
+![步骤4](/images/cursor/step-7.png)
+
+![步骤4](/images/cursor/step-8.png)
+
+

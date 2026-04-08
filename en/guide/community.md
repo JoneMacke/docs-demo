@@ -32,6 +32,7 @@ sidebar: false
       </ul>
       <a href="https://qm.qq.com/your_notice_group" target="_blank" class="shop-card-btn">Subscribe</a>
     </div>
+    <!-- WeChat Group (temporarily hidden)
     <div class="shop-card" style="background: linear-gradient(135deg, #07c160 0%, #06ad56 100%);">
       <div class="shop-badge" style="background: linear-gradient(135deg, #2dd179 0%, #07c160 100%);">Active</div>
       <h2 class="shop-card-name">WeChat Group</h2>
@@ -44,5 +45,20 @@ sidebar: false
       </ul>
       <a href="#" class="shop-card-btn" onclick="alert('Add WeChat: your_wechat_id');return false;">Contact Us</a>
     </div>
+    -->
+    <!-- Telegram Group (temporarily hidden)
+    <div class="shop-card" style="background: linear-gradient(135deg, #0088cc 0%, #005f99 100%);">
+      <div class="shop-badge" style="background: linear-gradient(135deg, #29b6f6 0%, #0088cc 100%);">Global</div>
+      <h2 class="shop-card-name">Telegram Group</h2>
+      <p class="shop-card-note">Global Chat · Instant Messaging · Privacy</p>
+      <ul class="shop-card-features">
+        <li>✓ Global user interaction</li>
+        <li>✓ Instant message push</li>
+        <li>✓ Technical discussions</li>
+        <li>✓ Latest updates</li>
+      </ul>
+      <a href="https://t.me/yxapi" target="_blank" class="shop-card-btn">Join Telegram</a>
+    </div>
+    -->
   </div>
 </div>

@@ -1,18 +1,34 @@
 ---
 sidebar: false
+prev:
+  text: 'OpenClaw'
+  link: '/guide/code/openclaw'
+next:
+  text: 'Python SDK'
+  link: '/guide/code/python-sdk'
 ---
 
 # 📖 Easydict
 
-Easydict 是一款智能翻译词典工具，支持 AI 翻译。
+::: info 软件信息
+**官方网站：** [Easydict （点击跳转）](https://github.com/tisfeng/Easydict)  
+**支持平台：** MacOS
+:::
 
-## 功能特点
+## 📝 配置步骤
 
-- 多引擎翻译
-- AI 智能翻译
-- 划词翻译
-- 多平台支持
+1. **服务** → **Openai 翻译** → **自定义服务商**
+2. **接口地址：** `https://api.katioai.com/v1/chat/completions`
+3. **API Key：** 填入您的令牌/密钥
+4. **模型：** 手动添加模型
 
-## 配置枫叶AI
+::: warning 注意事项
+- ✅ API 类型选择 Openai 翻译
+- ✅ 地址填写完整
+- ❌ 不要遗漏模型的前后缀
+:::
 
-在 Easydict 设置 → AI 翻译中，选择自定义 API，填入枫叶AI的地址和密钥。
+## 📸 图文教程
+
+### 步骤 1：填写配置信息
+![步骤1](/images/easydict/step-1.png)

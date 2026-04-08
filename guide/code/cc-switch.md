@@ -1,18 +1,45 @@
 ---
 sidebar: false
+prev:
+  text: '代码设置'
+  link: '/guide/code-config'
+next:
+  text: 'Claude Code'
+  link: '/guide/code/claude-code'
 ---
 
 # 🔀 CC Switch
 
-CC Switch 是一款多模型切换工具，方便在不同 AI 模型间快速切换。
+::: info 软件信息
+**官方网站：** [CC Switch (点击跳转)](https://github.com/farion1231/cc-switch/releases)  
+**支持平台：** Windows / macOS / Linux
+:::
 
-## 功能特点
+## 📝 配置步骤
 
-- 一键切换模型
-- 多 API 管理
-- 快捷键支持
-- 配置导入导出
+1. **选择模型服务** → **选择添加** → **添加提供商**
+2. **API 地址：** `https://api.katioai.com`
+3. **API Key：** 填入您的令牌/密钥
+4. **主模型：** 选择模型添加
+5. **API 格式：** anthropic messages（原生）
 
-## 配置枫叶AI
 
-在 CC Switch 中添加枫叶AI配置，填入 API 地址和密钥即可。
+::: warning 注意事项
+- ✅ 确保 API 地址填写正确，不包含 `/v1`
+- ❌ 不要遗漏模型的前后缀
+:::
+
+## 📸 图文教程
+
+### 步骤 1：打开设置
+![步骤1](/images/cc-switch/step-1.png)
+
+![步骤1](/images/cc-switch/step-2.png)
+
+### 步骤 2：填入配置信息
+![步骤2](/images/cc-switch/step-3.png)
+
+![步骤2](/images/cc-switch/step-4.png)
+
+
+

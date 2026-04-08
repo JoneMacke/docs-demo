@@ -51,38 +51,38 @@ const shops = [
     link: 'https://xhslink.com/m/4UeAaHivZrI',
     bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
     badgeBg: '#e53e3e'
-  },
-  {
-    name: 'Taobao Platform',
-    badge: 'Limited Offer',
-    price: '2% ~ 5% OFF',
-    note: 'Discount increases with recharge amount',
-    features: [
-      'Taobao guaranteed transaction, safe',
-      'Huabei, credit card and more',
-      'Auto delivery, instant use',
-      'More recharge, more discount'
-    ],
-    btnText: 'Buy on Taobao',
-    link: 'https://www.taobao.com/',
-    bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
-    badgeBg: '#dd6b20'
-  },
-  {
-    name: 'Xianyu Platform',
-    badge: 'Xianyu Exclusive',
-    price: '2% ~ 5% OFF',
-    note: 'Discount increases with recharge amount',
-    features: [
-      'Xianyu guaranteed transaction, safe',
-      'Huabei, credit card and more',
-      'Instant delivery, quick arrival',
-      'More recharge, more discount'
-    ],
-    btnText: 'Buy on Xianyu',
-    link: 'https://www.goofish.com/',
-    bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
-    badgeBg: '#d69e2e'
   }
+  // {
+  //   name: 'Taobao Platform',
+  //   badge: 'Limited Offer',
+  //   price: '2% ~ 5% OFF',
+  //   note: 'Discount increases with recharge amount',
+  //   features: [
+  //     'Taobao guaranteed transaction, safe',
+  //     'Huabei, credit card and more',
+  //     'Auto delivery, instant use',
+  //     'More recharge, more discount'
+  //   ],
+  //   btnText: 'Buy on Taobao',
+  //   link: 'https://www.taobao.com/',
+  //   bg: 'linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)',
+  //   badgeBg: '#dd6b20'
+  // },
+  // {
+  //   name: 'Xianyu Platform',
+  //   badge: 'Xianyu Exclusive',
+  //   price: '2% ~ 5% OFF',
+  //   note: 'Discount increases with recharge amount',
+  //   features: [
+  //     'Xianyu guaranteed transaction, safe',
+  //     'Huabei, credit card and more',
+  //     'Instant delivery, quick arrival',
+  //     'More recharge, more discount'
+  //   ],
+  //   btnText: 'Buy on Xianyu',
+  //   link: 'https://www.goofish.com/',
+  //   bg: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
+  //   badgeBg: '#d69e2e'
+  // }
 ]
 </script>

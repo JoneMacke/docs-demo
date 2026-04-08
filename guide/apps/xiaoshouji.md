@@ -10,8 +10,8 @@ next:
 # 小手机
 
 ::: info 软件信息
-**官方网站：** [https://xiaoshouji.app](https://xiaoshouji.app)  
-**支持平台：** iOS / Android
+**官方网站：** [小手机 （自行获取）](https://xiaoshouji.app)  
+**支持平台：** iOS web/ Android web
 :::
 
 ## 📹 视频教程
@@ -26,7 +26,7 @@ next:
 1. **设置** → **API 配置** → **添加自定义服务**
 2. **API 地址：** `https://api.katioai.com/v1`
 3. **API Key：** 填入您的令牌/密钥
-4. **模型：** 获取模型列表/手动添加
+4. **模型：** 获取模型列表
 
 ::: warning 注意事项
 - ✅ 确保 API 地址填写正确，包含 `/v1`
@@ -44,8 +44,6 @@ next:
 ### 步骤 3：填写配置信息
 ![步骤3](/images/xiaoshouji/step-3.png)
 
-### 步骤 4：选择模型
+### 步骤 4：选择模型并保存
 ![步骤4](/images/xiaoshouji/step-4.png)
 
-### 步骤 5：完成配置
-![步骤5](/images/xiaoshouji/step-5.png)

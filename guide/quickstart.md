@@ -61,6 +61,27 @@ next:
   </div>
 </div>
 
+## 🎁 领取额度
+
+<div class="qs-bonus-grid">
+  <a href="https://api.katioai.com/register" target="_blank" class="qs-bonus-card qs-bonus-newcomer">
+    <div class="qs-bonus-icon">🎉</div>
+    <div class="qs-bonus-info">
+      <div class="qs-bonus-name">新人礼包</div>
+      <div class="qs-bonus-desc">注册领取免费额度</div>
+    </div>
+    <div class="qs-bonus-arrow">→</div>
+  </a>
+  <a href="https://api.katioai.com/console/topup" target="_blank" class="qs-bonus-card qs-bonus-share">
+    <div class="qs-bonus-icon">🤝</div>
+    <div class="qs-bonus-info">
+      <div class="qs-bonus-name">福利共享</div>
+      <div class="qs-bonus-desc">邀请好友双方获额度</div>
+    </div>
+    <div class="qs-bonus-arrow">→</div>
+  </a>
+</div>
+
 ## ⚡ 快速进入
 
 <div class="qs-quick-grid">
@@ -438,6 +459,97 @@ next:
   font-weight: 500;
 }
 
+/* Bonus Grid - 领取额度 */
+.qs-bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.qs-bonus-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: 14px;
+  text-decoration: none !important;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.qs-bonus-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.qs-bonus-card:hover {
+  transform: translateY(-3px);
+}
+
+.qs-bonus-newcomer {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+}
+
+.qs-bonus-newcomer:hover {
+  box-shadow: 0 8px 28px rgba(245, 158, 11, 0.4);
+}
+
+.qs-bonus-share {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.3);
+}
+
+.qs-bonus-share:hover {
+  box-shadow: 0 8px 28px rgba(139, 92, 246, 0.4);
+}
+
+.qs-bonus-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.qs-bonus-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.qs-bonus-name {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+  color: #fff !important;
+}
+
+.qs-bonus-desc {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.qs-bonus-arrow {
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.7;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.qs-bonus-card:hover .qs-bonus-arrow {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .qs-key-banner-content {
@@ -448,7 +560,8 @@ next:
   }
 
   .qs-address-grid,
-  .qs-api-grid {
+  .qs-api-grid,
+  .qs-bonus-grid {
     grid-template-columns: 1fr;
   }
 

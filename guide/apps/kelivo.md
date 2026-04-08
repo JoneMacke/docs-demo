@@ -10,8 +10,8 @@ next:
 # Kelivo
 
 ::: info 软件信息
-**官方网站：** [https://kelivo.app](https://kelivo.app)  
-**支持平台：** Windows / macOS / Linux
+**官方网站：** [Kelivo （点击跳转）](https://kelivo.psycheas.top/zh/)  
+**支持平台：** Android / iOS / 鸿蒙版
 :::
 
 ## 📹 视频教程
@@ -23,10 +23,12 @@ next:
 
 ## 📝 配置步骤
 
-1. **设置** → **API 配置** → **添加自定义服务**
-2. **API 地址：** `https://api.katioai.com/v1`
-3. **API Key：** 填入您的令牌/密钥
-4. **模型：** 获取模型列表/手动添加
+1. **设置** → **供应商** → **添加配置**
+2. **API 模式：** OpenAI
+3. **API 主机：** `https://api.katioai.com/v1`
+4. **API 路径：** `/chat/completions`
+5. **API Key：** 填入您的令牌/密钥
+6. **模型 (Model)：** 点获取拉取模型/手动添加
 
 ::: warning 注意事项
 - ✅ 确保 API 地址填写正确，包含 `/v1`
@@ -38,14 +40,29 @@ next:
 ### 步骤 1：打开设置
 ![步骤1](/images/kelivo/step-1.png)
 
-### 步骤 2：添加 API 配置
+![步骤1](/images/kelivo/step-1-1.png)
+
+### 步骤 2：选择供应商并添加
 ![步骤2](/images/kelivo/step-2.png)
+
+![步骤2](/images/kelivo/step-2-1.png)
 
 ### 步骤 3：填写配置信息
 ![步骤3](/images/kelivo/step-3.png)
 
-### 步骤 4：选择模型
+### 步骤 4：获取模型并添加
 ![步骤4](/images/kelivo/step-4.png)
 
-### 步骤 5：完成配置
+![步骤4](/images/kelivo/step-4-1.png)
+
+![步骤4](/images/kelivo/step-4-2.png)
+
+![步骤4](/images/kelivo/step-4-3.png)
+
+### 步骤 5：选择模型
 ![步骤5](/images/kelivo/step-5.png)
+
+![步骤5](/images/kelivo/step-5-1.png)
+
+### 步骤 6：完成配置
+![步骤6](/images/kelivo/step-6.png)

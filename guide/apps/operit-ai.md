@@ -10,8 +10,8 @@ next:
 # Operit AI
 
 ::: info 软件信息
-**官方网站：** [https://operit.ai](https://operit.ai)  
-**支持平台：** Windows / macOS / Linux
+**官方网站：** [Operit AI （点击跳转）](https://github.com/AAswordman/Operit/releases)  
+**支持平台：** Android
 :::
 
 ## 📹 视频教程
@@ -23,13 +23,13 @@ next:
 
 ## 📝 配置步骤
 
-1. **设置** → **API 配置** → **添加自定义服务**
-2. **API 地址：** `https://api.katioai.com/v1`
+1. **设置** → **模型与参数配置** → **添加其他供应商**
+2. **API 地址：** `https://api.katioai.com/v1/chat/completions`
 3. **API Key：** 填入您的令牌/密钥
-4. **模型：** 获取模型列表/手动添加
+4. **模型：** 获取模型列表
 
 ::: warning 注意事项
-- ✅ 确保 API 地址填写正确，包含 `/v1`
+- ✅ 确保 API 地址填写正确
 - ❌ 不要遗漏模型的前后缀
 :::
 
@@ -38,13 +38,13 @@ next:
 ### 步骤 1：打开设置
 ![步骤1](/images/operit-ai/step-1.png)
 
-### 步骤 2：添加 API 配置
+### 步骤 2：选择模型与参数配置
 ![步骤2](/images/operit-ai/step-2.png)
 
 ### 步骤 3：填写配置信息
 ![步骤3](/images/operit-ai/step-3.png)
 
-### 步骤 4：选择模型
+### 步骤 4：选择AI对话
 ![步骤4](/images/operit-ai/step-4.png)
 
 ### 步骤 5：完成配置

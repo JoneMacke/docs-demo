@@ -32,7 +32,8 @@ const groups = [
       { name: 'Cherry Studio', emoji: '🍒', desc: '多模型聚合助手', link: '/guide/apps/cherrystudio' },
       { name: 'RikkaHub', emoji: '🔗', desc: 'AI 对话中心', link: '/guide/apps/rikkahub' },
       { name: 'Kelivo', emoji: '📋', desc: 'AI 知识管理', link: '/guide/apps/kelivo' },
-      { name: 'Operit AI', emoji: '⚡', desc: 'AI 自动化工具', link: '/guide/apps/operit-ai' }
+      { name: 'Operit AI', emoji: '⚡', desc: 'AI 自动化工具', link: '/guide/apps/operit-ai' },
+      { name: '提示词优化器', emoji: '✨', desc: 'Prompt 智能优化', link: '/guide/apps/prompt-optimizer' }
     ]
   },
   {
@@ -49,7 +50,6 @@ const groups = [
     items: [
       { name: 'DreamLove', emoji: '💖', desc: 'AI 情感陪伴', link: '/guide/apps/dreamlove' },
       { name: '小懿', emoji: '🌸', desc: '智能陪伴助手', link: '/guide/apps/xiaoyi' },
-      { name: '梦潮汐', emoji: '🌊', desc: '沉浸式对话体验', link: '/guide/apps/mengchaoxi' },
       { name: '小手机', emoji: '📱', desc: '移动端 AI 陪伴', link: '/guide/apps/xiaoshouji' }
     ]
   }

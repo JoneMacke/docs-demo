@@ -22,7 +22,7 @@ const items = [
     icon: '🚀',
     title: '快速开始',
     enTitle: 'QUICK START',
-    desc: '环境要求 / 安装步骤 / 第一个请求',
+    desc: '官网地址 / API接口地址 / 注册账号',
     link: '/guide/quickstart',
     bg: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #065f46 100%)'
   },

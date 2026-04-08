@@ -38,6 +38,7 @@ next:
       </ul>
       <a href="https://qm.qq.com/q/OqKI2p3Q2W" target="_blank" class="shop-card-btn">订阅通知</a>
     </div>
+    <!-- 微信交流群（暂时隐藏）
     <div class="shop-card" style="background: linear-gradient(135deg, #07c160 0%, #06ad56 100%);">
       <div class="shop-badge" style="background: linear-gradient(135deg, #2dd179 0%, #07c160 100%);">活跃</div>
       <h2 class="shop-card-name">微信交流群</h2>
@@ -50,6 +51,21 @@ next:
       </ul>
       <a href="#" class="shop-card-btn" onclick="alert('请添加客服微信：JionYanX');return false;">联系客服</a>
     </div>
+    -->
+    <!-- Telegram 交流群（暂时隐藏）
+    <div class="shop-card" style="background: linear-gradient(135deg, #0088cc 0%, #005f99 100%);">
+      <div class="shop-badge" style="background: linear-gradient(135deg, #29b6f6 0%, #0088cc 100%);">国际</div>
+      <h2 class="shop-card-name">Telegram 交流群</h2>
+      <p class="shop-card-note">全球交流 · 即时通讯 · 隐私安全</p>
+      <ul class="shop-card-features">
+        <li>✓ 全球用户交流互动</li>
+        <li>✓ 即时消息推送</li>
+        <li>✓ 技术问题讨论</li>
+        <li>✓ 最新动态发布</li>
+      </ul>
+      <a href="https://t.me/yxapi" target="_blank" class="shop-card-btn">加入 Telegram</a>
+    </div>
+    -->
   </div>
 
   <div class="page-nav-buttons">
