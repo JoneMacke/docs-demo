@@ -17,7 +17,7 @@
           </a>
         </div>
         <div class="vaction">
-          <a href="https://api.katioai.com/console" class="secondary">
+          <a href="https://ai.katioai.com/console" class="secondary">
             Console
             <svg viewBox="0 0 24 24" width="1.2em" height="1.2em">
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7l-7 7"></path>

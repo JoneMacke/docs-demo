@@ -1,38 +1,63 @@
 ---
-sidebar: false
+prev:
+  text: 'API Examples'
+  link: '/en/guide/api-examples'
+next:
+  text: 'Code Configuration'
+  link: '/en/guide/code-config'
 ---
 
-# 🔑 Get Token
+# 🔑 Obtaining a Token
 
-Learn how to obtain and manage your API tokens.
-
-## Get API Key
-
-1. Log in to the [Maple AI Console](https://example.com)
-2. Navigate to "API Management"
-3. Click "Create New Key"
-4. Copy and safely store your API Key
-
-::: warning Security Notice
-Never expose your API Key in frontend code. Use a backend proxy to forward requests.
+::: info Information
+**Console Address:** [Go to Console (Click to visit)](https://ai.katioai.com/console)  
+**Applicable Scope:** All API call scenarios
 :::
 
-## Pricing
+## 📹 Video Tutorial
 
-| Model | Input Price | Output Price |
-|-------|-----------|-------------|
-| maple-ai-v1 | $0.001/1K tokens | $0.002/1K tokens |
-| maple-ai-pro | $0.003/1K tokens | $0.006/1K tokens |
+<video controls style="width: 100%; max-width: 800px; border-radius: 8px; margin: 20px 0;">
+  <source src="/videos/token-tutorial.mp4" type="video/mp4">
+  Your browser does not support the video player.
+</video>
 
-## Check Usage
+## 📝 Steps to Obtain
 
-```bash
-curl https://api.example.com/v1/usage \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
+1. **Log in** → [MapleAI Console](https://ai.katioai.com/console)
+2. **Navigate to** → "API Management" page
+3. **Click** → "Create New Key"
+4. **Copy** → Properly save your API Key
 
-## Key Management
+::: warning Notes
+- ✅ Please keep your API Key safe
+- ❌ Do not expose your API Key in frontend code. It is recommended to forward requests through a backend proxy
+:::
 
-- Up to 5 API Keys per account
-- Independent rate limits per key
-- Disable or delete keys anytime
+## 📸 Illustrated Tutorial
+
+### Step 1: Go to the Console
+![Step1](/images/token/step-1.png)
+
+![Step1](/images/token/step-1-1.png)
+
+### Step 2: Redeem Credits
+![Step2](/images/token/step-2.png)
+
+![Step2](/images/token/step-2-1.png)
+
+### Step 3: Go to Token Management
+![Step3](/images/token/step-3.png)
+
+![Step3](/images/token/step-3-1.png)
+
+![Step3](/images/token/step-3-2.png)
+
+### Step 4: Create an API Key
+![Step4](/images/token/step-4.png)
+
+![Step4](/images/token/step-4-1.png)
+
+![Step4](/images/token/step-4-2.png)
+
+### Step 5: Copy the Key to Complete
+![Step5](/images/token/step-5.png)

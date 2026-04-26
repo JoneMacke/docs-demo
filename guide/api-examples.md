@@ -35,7 +35,7 @@ next:
   "models": {
     "providers": {
       "Claude": {
-        "baseUrl": "https://api.katioai.com",
+        "baseUrl": "https://ai.katioai.com",
         "apiKey": "sk-xxxxxx你的真实秘钥",
         "api": "anthropic-messages",
         "models": [
@@ -77,7 +77,7 @@ next:
 通过 cURL 直接调用 **聊天补全接口**：
 
 ```bash
-curl https://api.katioai.com/v1/chat/completions \
+curl https://ai.katioai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer sk-xxxxxx你的真实秘钥" \
   -d '{
@@ -120,7 +120,7 @@ from openai import OpenAI
 # 初始化客户端，指向枫叶AI接口
 client = OpenAI(
     api_key="sk-xxxxxxxx",          # 替换为你的真实密钥
-    base_url="https://api.katioai.com/v1"  # 枫叶AI的API地址
+    base_url="https://ai.katioai.com/v1"  # 枫叶AI的API地址
 )
 
 # 发起聊天补全请求

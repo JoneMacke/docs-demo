@@ -48,7 +48,7 @@ claude --version
 ## 配置步骤
 
 1. **选择工具类型** → **选择添加** → **添加提供商**
-2. **API 地址：** `https://api.katioai.com`
+2. **API 地址：** `https://ai.katioai.com`
 3. **API Key：** 填入您的令牌/密钥
 4. **主模型：** 手动添加模型
 5. **API 格式：** anthropic messages（原生）

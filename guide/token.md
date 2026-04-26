@@ -10,7 +10,7 @@ next:
 # 🔑 获取令牌
 
 ::: info 说明信息
-**控制台地址：** [进入控制台 （点击跳转）](https://api.katioai.com/console)  
+**控制台地址：** [进入控制台 （点击跳转）](https://ai.katioai.com/console)  
 **适用范围：** 所有 API 调用场景
 :::
 
@@ -23,7 +23,7 @@ next:
 
 ## 📝 获取步骤
 
-1. **登录** → [枫叶AI控制台](https://api.katioai.com/console)
+1. **登录** → [枫叶AI控制台](https://ai.katioai.com/console)
 2. **进入** → 「API 管理」页面
 3. **点击** → 「创建新密钥」
 4. **复制** → 妥善保存你的 API Key

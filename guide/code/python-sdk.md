@@ -37,7 +37,7 @@ from openai import OpenAI
 # 初始化客户端
 client = OpenAI(
     api_key="sk-xxxxxxxx",              # 填入您的令牌
-    base_url="https://api.katioai.com/v1" # 填入实际的API 地址
+    base_url="https://ai.katioai.com/v1" # 填入实际的API 地址
 )
 
 # 发送请求
@@ -135,7 +135,7 @@ class VideoAnalyzer:
         """3. 调用视觉大模型解析视频内容"""
         print("🧠 正在请求 AI 分析视频内容...")
         
-        url = "https://api.katioai.com/v1/chat/completions"
+        url = "https://ai.katioai.com/v1/chat/completions"
         
         content_payload = [
             {"type": "text", "text": "这是同一个视频中按时间顺序抽取的几帧画面。请详细描述这个视频里发生了什么？包括场景、人物动作、氛围和主要事件。"}
@@ -210,7 +210,7 @@ if __name__ == "__main__":
 ```python
 import requests, json, base64
 
-API_URL = "https://api.katioai.com/v1/chat/completions"
+API_URL = "https://ai.katioai.com/v1/chat/completions"
 API_KEY = "Bearer sk-xxxxxxxx"  # 替换为你的API Key
 
 def analyze_image(img_path):
@@ -271,7 +271,7 @@ import os
 
 def generate_video_stream_with_retry(prompt, api_key, max_retries=3):
     """带重试机制的流式视频生成指令获取函数"""
-    base_url = "https://api.katioai.com/v1/chat/completions"
+    base_url = "https://ai.katioai.com/v1/chat/completions"
     
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -385,7 +385,7 @@ from urllib.parse import urlparse
 class ImageGenerator:
     def __init__(self):
         self.api_key = "sk-xxxxxxxx"  # 替换为你的API密钥
-        self.api_url = "https://api.katioai.com/v1/chat/completions"
+        self.api_url = "https://ai.katioai.com/v1/chat/completions"
         self.model = "nano-banana"
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -489,7 +489,7 @@ import base64
 # 初始化客户端
 client = OpenAI(
     api_key="sk-xxxxxxxx",                # 填入您的令牌
-    base_url="https://api.katioai.com/v1"  # 填入实际的API 地址
+    base_url="https://ai.katioai.com/v1"  # 填入实际的API 地址
 )
 
 # 读取本地图片并编码为 base64

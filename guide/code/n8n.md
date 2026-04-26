@@ -19,7 +19,7 @@ next:
 
 1. **设置** → **添加模块** → **手动添加配置**
 2. **API 模式：** text
-3. **API 主机：** `https://api.katioai.com/v1`
+3. **API 主机：** `https://ai.katioai.com/v1`
 4. **模块：** `Message a model`
 5. **API Key：** 填入您的令牌/密钥
 6. **模型 (Model)：** 点获取拉取模型

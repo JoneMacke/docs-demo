@@ -17,7 +17,7 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/' },
           { text: '🐋 使用指南', link: '/guide/' },
-          { text: '🖥️ 前往控制台', link: 'https://api.katioai.com/console' },
+          { text: '🖥️ 前往控制台', link: 'https://ai.katioai.com/console' },
           { text: '🛒 购买卡密', link: 'https://68n.cn/PZkYw' }
         ],
         sidebar: {},
@@ -62,7 +62,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: '🐋 Guide', link: '/en/guide/' },
-          { text: '🖥️ Console', link: 'https://api.katioai.com/console' },
+          { text: '🖥️ Console', link: 'https://ai.katioai.com/console' },
           { text: '🛒 Buy Key', link: 'https://68n.cn/PZkYw' }
         ],
         sidebar: {},

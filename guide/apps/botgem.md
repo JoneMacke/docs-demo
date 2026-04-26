@@ -24,7 +24,7 @@ next:
 ## 📝 配置步骤
 
 1. **设置** → **服务提供商** → **添加自定义服务商**
-2. **API Server：** `https://api.katioai.com`
+2. **API Server：** `https://ai.katioai.com`
 3. **API Key：** 填入您的令牌/密钥
 4. **模型(Models)：** 获取模型列表/手动添加
 

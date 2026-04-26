@@ -56,7 +56,7 @@ next: false
     "providers": {
       "Claude": {
         // API 服务地址
-        "baseUrl": "https://api.katioai.com",
+        "baseUrl": "https://ai.katioai.com",
 
         // API 密钥
         "apiKey": "sk-xxxxxx你的真实秘钥",
@@ -97,7 +97,7 @@ next: false
   "models": {
     "providers": {
       "Claude": {
-        "baseUrl": "https://api.katioai.com",
+        "baseUrl": "https://ai.katioai.com",
         "apiKey": "sk-xxxxxx你的真实秘钥",
         "api": "anthropic-messages",
         "models": [
@@ -180,7 +180,7 @@ next: false
 当前示例地址为：
 
 ```json
-"baseUrl": "https://api.katioai.com"
+"baseUrl": "https://ai.katioai.com"
 ```
 
 请确认该地址与你实际使用的服务一致。
@@ -211,7 +211,7 @@ next: false
   "models": {
     "providers": {
       "Claude": {
-        "baseUrl": "https://api.katioai.com",
+        "baseUrl": "https://ai.katioai.com",
         "apiKey": "sk-xxxxxx你的真实秘钥",
         "api": "anthropic-messages",
         "models": [
@@ -312,7 +312,7 @@ next: false
   "models": {
     "providers": {
       "Claude": {
-        "baseUrl": "https://api.katioai.com",
+        "baseUrl": "https://ai.katioai.com",
         "apiKey": "YOUR_API_KEY",
         "api": "anthropic-messages",
         "models": [

@@ -1,49 +1,20 @@
 ---
+layout: page
 sidebar: false
+prev:
+  text: 'User Guide'
+  link: '/en/guide/'
+next:
+  text: 'Go to Shop'
+  link: '/en/guide/shop'
 ---
 
-# ⚙️ App Config
+<div class="guide-page">
+  <h1 class="guide-page-title">App Configuration</h1>
+  <AppNavEn />
 
-Application-level configuration for Maple AI.
-
-## Model Selection
-
-| Model | Use Case | Context |
-|-------|----------|---------|
-| maple-ai-v1 | Chat, text generation | 8K |
-| maple-ai-pro | Complex reasoning, coding | 32K |
-| maple-ai-vision | Image understanding | 16K |
-
-## Parameters
-
-```json
-{
-  "temperature": 0.7,
-  "top_p": 0.9,
-  "max_tokens": 2048,
-  "frequency_penalty": 0,
-  "presence_penalty": 0
-}
-```
-
-## Rate Limits
-
-| Plan | RPM | TPM |
-|------|-----|-----|
-| Free | 10 | 10K |
-| Standard | 100 | 100K |
-| Pro | 1000 | 1M |
-
-## Error Handling
-
-```javascript
-try {
-  const result = await client.chat(messages)
-} catch (error) {
-  if (error.status === 429) {
-    console.log('Too many requests, please retry later')
-  } else if (error.status === 401) {
-    console.log('Invalid API Key')
-  }
-}
-```
+  <div class="page-nav-buttons">
+    <a href="/en/guide/" class="page-nav-btn page-nav-prev">← Previous: User Guide</a>
+    <a href="/en/guide/shop" class="page-nav-btn page-nav-next">Next: Go to Shop →</a>
+  </div>
+</div>

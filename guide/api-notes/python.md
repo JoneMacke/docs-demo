@@ -56,7 +56,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-xxxxxxxxxx",                   # 替换为你的真实密钥
-    base_url="https://api.katioai.com/v1"       # KatioAI 接口地址
+    base_url="https://ai.katioai.com/v1"       # KatioAI 接口地址
 )
 
 response = client.chat.completions.create(
@@ -92,7 +92,7 @@ api_key="sk-xxxxxxxxxx"
 请使用以下接口地址：
 
 ```python
-base_url="https://api.katioai.com/v1"
+base_url="https://ai.katioai.com/v1"
 ```
 
 ### 3️⃣ Model
@@ -118,7 +118,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-xxxxxxxxxx",
-    base_url="https://api.katioai.com/v1"
+    base_url="https://ai.katioai.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -138,7 +138,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-xxxxxxxxxx",
-    base_url="https://api.katioai.com/v1"
+    base_url="https://ai.katioai.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -188,7 +188,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),        # 从环境变量读取
-    base_url="https://api.katioai.com/v1"
+    base_url="https://ai.katioai.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -208,7 +208,7 @@ print(response.choices[0].message.content)
 | 参数 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | `api_key` | `string` | API 密钥，用于身份认证 |
-| `base_url` | `string` | 接口基础地址：`https://api.katioai.com/v1` |
+| `base_url` | `string` | 接口基础地址：`https://ai.katioai.com/v1` |
 | `model` | `string` | 要调用的模型名称 |
 | `messages` | `list` | 聊天消息列表 |
 
@@ -250,7 +250,7 @@ print(response.choices[0].message.content)
 
 请确保设置为：
 ```
-https://api.katioai.com/v1
+https://ai.katioai.com/v1
 ```
 :::
 
@@ -278,7 +278,7 @@ model="gemini-3-pro-preview"
 | 参数 | 替换为 |
 | :--- | :--- |
 | `api_key` | 你的 KatioAI 密钥 |
-| `base_url` | `https://api.katioai.com/v1` |
+| `base_url` | `https://ai.katioai.com/v1` |
 | `model` | 平台支持的模型名称 |
 :::
 
@@ -293,7 +293,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-xxxxxxxxxx",
-    base_url="https://api.katioai.com/v1"
+    base_url="https://ai.katioai.com/v1"
 )
 
 response = client.chat.completions.create(
@@ -329,7 +329,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-xxxxxxxxxx",
-    base_url="https://api.katioai.com/v1"
+    base_url="https://ai.katioai.com/v1"
 )
 
 response = client.chat.completions.create(

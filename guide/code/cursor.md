@@ -19,7 +19,7 @@ next:
 
 1. **设置** → **Models** → **手动添加配置**
 2. **API 模式：** OpenAI
-3. **API 地址：** `https://api.katioai.com/v1`
+3. **API 地址：** `https://ai.katioai.com/v1`
 5. **API Key：** 填入您的令牌/密钥
 6. **模型 (Model)：** 手动添加模型
 

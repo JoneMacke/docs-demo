@@ -24,7 +24,7 @@ next:
         <li>✓ 用户经验交流</li>
         <li>✓ 最新功能通知</li>
       </ul>
-      <a href="https://qm.qq.com/q/ZkkiQXc4eY" target="_blank" class="shop-card-btn">加入群聊</a>
+      <a href="https://qm.qq.com/q/YusA5Q8roy" target="_blank" class="shop-card-btn">加入群聊</a>
     </div>
     <div class="shop-card" style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);">
       <div class="shop-badge" style="background: linear-gradient(135deg, #ff8787 0%, #ff6b6b 100%);">通知</div>
@@ -36,7 +36,7 @@ next:
         <li>✓ 优惠活动提醒</li>
         <li>✓ 重要公告发布</li>
       </ul>
-      <a href="https://qm.qq.com/q/OqKI2p3Q2W" target="_blank" class="shop-card-btn">订阅通知</a>
+      <a href="https://qm.qq.com/q/ZkkiQXc4eY" target="_blank" class="shop-card-btn">订阅通知</a>
     </div>
     <!-- 微信交流群（暂时隐藏）
     <div class="shop-card" style="background: linear-gradient(135deg, #07c160 0%, #06ad56 100%);">

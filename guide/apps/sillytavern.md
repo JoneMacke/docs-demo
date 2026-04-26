@@ -24,7 +24,7 @@ next:
 ## 📝 配置步骤
 
 1. **API 连接** → **聊天补全** → **自定义（兼容Openai）**
-2. **自定义端点：** `https://api.katioai.com/v1`
+2. **自定义端点：** `https://ai.katioai.com/v1`
 3. **API Key：** 填入您的令牌/密钥
 4. **模型：** 获取模型
 

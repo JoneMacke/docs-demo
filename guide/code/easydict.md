@@ -18,7 +18,7 @@ next:
 ## 📝 配置步骤
 
 1. **服务** → **Openai 翻译** → **自定义服务商**
-2. **接口地址：** `https://api.katioai.com/v1/chat/completions`
+2. **接口地址：** `https://ai.katioai.com/v1/chat/completions`
 3. **API Key：** 填入您的令牌/密钥
 4. **模型：** 手动添加模型
 

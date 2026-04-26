@@ -48,7 +48,7 @@ codex --version
 ## 配置步骤
 
 1. **选择模型服务** → **选择添加** → **添加提供商**
-2. **API 地址：** `https://api.katioai.com/v1`
+2. **API 地址：** `https://ai.katioai.com/v1`
 3. **API Key：** 填入您的令牌/密钥
 4. **主模型：** 选择模型添加
 

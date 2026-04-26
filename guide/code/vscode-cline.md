@@ -13,7 +13,7 @@ next:
 ## 📝 配置步骤
 
 1. **安装Cline** → **选择设置** → **添加提供商**
-2. **API 地址：** `https://api.katioai.com/v1`
+2. **API 地址：** `https://ai.katioai.com/v1`
 3. **API Key：** 填入您的令牌/密钥
 4. **模型：** 手动添加模型
 

@@ -31,13 +31,13 @@ next:
   <div class="qs-address-card">
     <div class="qs-address-tag qs-tag-primary">主站</div>
     <div class="qs-address-url">
-      <a href="https://api.katioai.com" target="_blank">https://api.katioai.com</a>
+      <a href="https://ai.katioai.com" target="_blank">https://ai.katioai.com</a>
     </div>
   </div>
   <div class="qs-address-card">
     <div class="qs-address-tag qs-tag-secondary">备用</div>
     <div class="qs-address-url">
-      <a href="https://vip.katioai.com" target="_blank">https://vip.katioai.com</a>
+      <a href="https://api.katioai.com" target="_blank">https://api.katioai.com</a>
     </div>
   </div>
 </div>
@@ -48,14 +48,14 @@ next:
   <div class="qs-api-card">
     <div class="qs-api-label">主站 API 接口</div>
     <div class="qs-api-url">
-      <code>https://api.katioai.com/v1</code>
+      <code>https://ai.katioai.com/v1</code>
       <span class="qs-api-badge qs-badge-primary">推荐</span>
     </div>
   </div>
   <div class="qs-api-card">
     <div class="qs-api-label">备用 API 接口</div>
     <div class="qs-api-url">
-      <code>https://vip.katioai.com/v1</code>
+      <code>https://api.katioai.com/v1</code>
       <span class="qs-api-badge qs-badge-secondary">备用</span>
     </div>
   </div>
@@ -64,7 +64,7 @@ next:
 ## 🎁 领取额度
 
 <div class="qs-bonus-grid">
-  <a href="https://api.katioai.com/register" target="_blank" class="qs-bonus-card qs-bonus-newcomer">
+  <a href="https://ai.katioai.com/register" target="_blank" class="qs-bonus-card qs-bonus-newcomer">
     <div class="qs-bonus-icon">🎉</div>
     <div class="qs-bonus-info">
       <div class="qs-bonus-name">新人礼包</div>
@@ -72,7 +72,7 @@ next:
     </div>
     <div class="qs-bonus-arrow">→</div>
   </a>
-  <a href="https://api.katioai.com/console/topup" target="_blank" class="qs-bonus-card qs-bonus-share">
+  <a href="https://ai.katioai.com/console/topup" target="_blank" class="qs-bonus-card qs-bonus-share">
     <div class="qs-bonus-icon">🤝</div>
     <div class="qs-bonus-info">
       <div class="qs-bonus-name">福利共享</div>
@@ -85,22 +85,22 @@ next:
 ## ⚡ 快速进入
 
 <div class="qs-quick-grid">
-  <a href="https://api.katioai.com/console/topup" target="_blank" class="qs-quick-card">
+  <a href="https://ai.katioai.com/console/topup" target="_blank" class="qs-quick-card">
     <div class="qs-quick-icon">💰</div>
     <div class="qs-quick-name">积分兑换</div>
     <div class="qs-quick-desc">兑换和管理积分</div>
   </a>
-  <a href="https://api.katioai.com/console/token" target="_blank" class="qs-quick-card">
+  <a href="https://ai.katioai.com/console/token" target="_blank" class="qs-quick-card">
     <div class="qs-quick-icon">🎫</div>
     <div class="qs-quick-name">令牌管理</div>
     <div class="qs-quick-desc">创建和管理 API 令牌</div>
   </a>
-  <a href="https://api.katioai.com/console" target="_blank" class="qs-quick-card">
+  <a href="https://ai.katioai.com/console" target="_blank" class="qs-quick-card">
     <div class="qs-quick-icon">👤</div>
     <div class="qs-quick-name">个人中心</div>
     <div class="qs-quick-desc">查看账户信息</div>
   </a>
-  <a href="https://api.katioai.com/pricing" target="_blank" class="qs-quick-card">
+  <a href="https://ai.katioai.com/pricing" target="_blank" class="qs-quick-card">
     <div class="qs-quick-icon">📊</div>
     <div class="qs-quick-name">模型价格</div>
     <div class="qs-quick-desc">查看模型定价详情</div>
@@ -114,7 +114,7 @@ next:
     <h3>注册您的账号</h3>
     <p>只需简单几步，即可完成注册并开始使用枫叶AI的所有服务。注册完成后，您将获得免费的体验额度。</p>
     <div class="qs-register-tip">⚠️ 注意填写QQ邮箱，并在邮箱内收取验证码，收件箱找不到，就到垃圾邮件箱查看</div>
-    <a href="https://vip.katioai.com/register" target="_blank" class="qs-register-btn">✨ 点击注册</a>
+    <a href="https://ai.katioai.com/register" target="_blank" class="qs-register-btn">✨ 点击注册</a>
   </div>
   <div class="qs-register-image">
     <img src="/images/Register/step-1.png" alt="注册流程示意图" class="qs-register-img" />

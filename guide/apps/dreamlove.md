@@ -24,7 +24,7 @@ next:
 ## 📝 配置步骤
 
 1. **我的** → **API 配置** → **使用外部API互动**
-2. **API 地址：** `https://api.katioai.com`
+2. **API 地址：** `https://ai.katioai.com`
 3. **API Key：** 填入您的令牌/密钥
 4. **模型：** 拉取模型列表
 

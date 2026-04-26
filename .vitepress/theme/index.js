@@ -7,7 +7,9 @@ import HomeHeroEn from './components/HomeHeroEn.vue'
 import GuideNav from './components/GuideNav.vue'
 import GuideNavEn from './components/GuideNavEn.vue'
 import AppNav from './components/AppNav.vue'
+import AppNavEn from './components/AppNavEn.vue'
 import CodeNav from './components/CodeNav.vue'
+import CodeNavEn from './components/CodeNavEn.vue'
 import ShopNav from './components/ShopNav.vue'
 import ShopNavEn from './components/ShopNavEn.vue'
 
@@ -25,7 +27,9 @@ export default {
     app.component('GuideNav', GuideNav)
     app.component('GuideNavEn', GuideNavEn)
     app.component('AppNav', AppNav)
+    app.component('AppNavEn', AppNavEn)
     app.component('CodeNav', CodeNav)
+    app.component('CodeNavEn', CodeNavEn)
     app.component('ShopNav', ShopNav)
     app.component('ShopNavEn', ShopNavEn)
   }

@@ -17,7 +17,7 @@ next: false
 下面的示例展示了如何通过 cURL 调用 **聊天补全接口**：
 
 ```bash
-curl https://api.katioai.com/v1/chat/completions \
+curl https://ai.katioai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
@@ -82,7 +82,7 @@ curl https://api.katioai.com/v1/chat/completions \
 通过在 `messages` 中添加多条消息，可以实现**多轮对话**的效果：
 
 ```bash
-curl https://api.katioai.com/v1/chat/completions \
+curl https://ai.katioai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
