@@ -61,7 +61,7 @@ pnpm docs:build
 
 1. **创建站点**
    - 登录宝塔面板 → 网站 → 添加站点
-   - 填写域名、根目录（如 `/www/wwwroot/docs.example.com`）
+   - 填写域名、根目录设为 `/www/wwwroot/docs.example.com/.vitepress/dist`
    - 安装 Nginx 环境
 
 2. **克隆项目**
@@ -105,7 +105,7 @@ pnpm docs:build
    server {
        listen 80;
        server_name docs.example.com;
-       root /var/www/docs.example.com;
+       root /var/www/docs.example.com/.vitepress/dist;
        index index.html;
 
        location / {
@@ -123,7 +123,7 @@ pnpm docs:build
 
 ## 一键自动更新脚本
 
-项目根目录内置 `update.sh` 脚本，可自动拉取最新代码、构建并覆盖到网站目录。
+项目根目录内置 `update.sh` 脚本，可自动拉取最新代码、安装依赖并重新构建。由于 Nginx root 已指向 `.vitepress/dist`，构建完成后无需额外复制文件。
 
 ### 创建脚本（如未创建）
 
@@ -137,11 +137,11 @@ echo ""
 echo "1/3 拉取最新代码..."
 git pull
 echo ""
-echo "2/3 开始构建..."
-pnpm run docs:build
+echo "2/3 安装依赖..."
+pnpm install
 echo ""
-echo "3/3 自动覆盖到网站目录..."
-cp -rf .vitepress/dist/* .
+echo "3/3 开始构建..."
+pnpm run docs:build
 echo ""
 echo "====================================="
 echo "        ✅ 更新完成！"
