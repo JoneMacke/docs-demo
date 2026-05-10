@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
+import { h, nextTick } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import mediumZoom from 'medium-zoom'
 import './style.css'
 import HomeHero from './components/HomeHero.vue'
 import HomeHeroEn from './components/HomeHeroEn.vue'
@@ -32,5 +33,23 @@ export default {
     app.component('CodeNavEn', CodeNavEn)
     app.component('ShopNav', ShopNav)
     app.component('ShopNavEn', ShopNavEn)
+
+    if (typeof window !== 'undefined') {
+      let zoom
+
+      const enableImageZoom = () => {
+        nextTick(() => {
+          zoom?.detach()
+          zoom = mediumZoom('.vp-doc img:not(a img)', {
+            background: 'rgba(0, 0, 0, 0.75)',
+            margin: 24,
+            scrollOffset: 0
+          })
+        })
+      }
+
+      router.onAfterRouteChanged = enableImageZoom
+      enableImageZoom()
+    }
   }
 }
