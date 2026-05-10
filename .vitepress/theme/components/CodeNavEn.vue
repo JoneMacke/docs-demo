@@ -54,7 +54,8 @@ const groups = [
     title: '🤖 Agents',
     items: [
       { name: 'Copaw', emoji: '🐾', desc: 'AI Coding Agent', link: '/en/guide/code/copaw' },
-      { name: 'OpenClaw', emoji: '🦀', desc: 'Open-Source AI Agent', link: '/en/guide/code/openclaw' }
+      { name: 'OpenClaw', emoji: '🦀', desc: 'Open-Source AI Agent', link: '/en/guide/code/openclaw' },
+      { name: 'Hermes Agent', emoji: '🪽', desc: 'Multi-platform AI Agent', link: '/en/guide/code/hermes-agent' }
     ]
   },
   {
