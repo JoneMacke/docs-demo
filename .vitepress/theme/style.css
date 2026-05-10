@@ -162,6 +162,17 @@
   transform: translateY(-2px);
 }
 
+.vaction a.status {
+  background: linear-gradient(135deg, #06b6d4 0%, #7c3aed 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.3);
+}
+
+.vaction a.status:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.4);
+}
+
 .vaction a.accent {
   background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
   color: #fff;
