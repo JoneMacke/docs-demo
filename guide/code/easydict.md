@@ -1,8 +1,8 @@
 ---
 sidebar: false
 prev:
-  text: 'OpenClaw'
-  link: '/guide/code/openclaw'
+  text: 'Hermes Agent'
+  link: '/guide/code/hermes-agent'
 next:
   text: 'Python SDK'
   link: '/guide/code/python-sdk'

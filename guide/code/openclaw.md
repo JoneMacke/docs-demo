@@ -4,8 +4,8 @@ prev:
   text: 'Copaw'
   link: '/guide/code/copaw'
 next:
-  text: 'Easydict'
-  link: '/guide/code/easydict'
+  text: 'Hermes Agent'
+  link: '/guide/code/hermes-agent'
 ---
 
 # 🦀 OpenClaw

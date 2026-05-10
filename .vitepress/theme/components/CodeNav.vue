@@ -54,7 +54,8 @@ const groups = [
     title: '🤖 智能体',
     items: [
       { name: 'Copaw', emoji: '🐾', desc: 'AI 编程智能体', link: '/guide/code/copaw' },
-      { name: 'OpenClaw', emoji: '🦀', desc: '开源 AI 智能体', link: '/guide/code/openclaw' }
+      { name: 'OpenClaw', emoji: '🦀', desc: '开源 AI 智能体', link: '/guide/code/openclaw' },
+      { name: 'Hermes Agent', emoji: '🪽', desc: '多平台 AI 智能体', link: '/guide/code/hermes-agent' }
     ]
   },
   {
