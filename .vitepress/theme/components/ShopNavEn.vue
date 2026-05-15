@@ -35,22 +35,6 @@ const shops = [
     link: 'https://68n.cn/PZkYw',
     bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     badgeBg: '#5a67d8'
-  },
-  {
-    name: 'Hongshu Platform',
-    badge: 'Community Choice',
-    price: '2% ~ 5% OFF',
-    note: 'Discount increases with recharge amount',
-    features: [
-      'Hongshu guaranteed transaction, safe',
-      'Multiple payment methods supported',
-      'Auto delivery, instant use',
-      'More recharge, more discount'
-    ],
-    btnText: 'Buy on Hongshu',
-    link: 'https://xhslink.com/m/4UeAaHivZrI',
-    bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
-    badgeBg: '#e53e3e'
   }
   // {
   //   name: 'Taobao Platform',

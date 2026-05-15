@@ -35,22 +35,6 @@ const shops = [
     link: 'https://68n.cn/PZkYw',
     bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     badgeBg: '#5a67d8'
-  },
-  {
-    name: '红薯平台',
-    badge: '社区热推',
-    price: '98折 ~ 95折',
-    note: '优惠力度随充值金额递增',
-    features: [
-      '红薯担保交易，安全放心',
-      '支持多种支付方式',
-      '自动发货，即买即用',
-      '充值越多折扣越大'
-    ],
-    btnText: '前往红薯购买',
-    link: 'https://xhslink.com/m/4UeAaHivZrI',
-    bg: 'linear-gradient(135deg, #f5515f 0%, #a1051d 100%)',
-    badgeBg: '#e53e3e'
   }
   // {
   //   name: '淘宝平台',
